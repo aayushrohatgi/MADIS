@@ -22,4 +22,7 @@ POSTGRES_CONN_STRING = (
 
 TOOLS_API_BASE_URL = os.getenv("TOOLS_API_BASE_URL", "http://localhost:8080")
 
+# MCP server URL (Java Spring Boot SSE server)
+MCP_SERVER_URL = os.getenv("MCP_SERVER_URL", "http://localhost:8080/mcp/sse")
+
 MAX_RETRIES = 2
